@@ -1,16 +1,28 @@
 # Keyboard-Lang-Fixer
-KeyLangConverter: أداة بايثون لتحويل النصوص المكتوبة بلغة كيبورد خاطئة (عربي ↔ إنجليزي) تلقائيًا باستخدام اختصار لوحة المفاتيح، مع نسخ النتيجة مباشرة للحافظة.
 
-# 📦 المتطلبات (Install requirements):
-# شغّل الأمر ده في الطرفية لتثبيت الحزم المطلوبة:
-# pip install -r requirements.txt
+**KeyLangConverter** is a Python tool that automatically converts clipboard text typed using the wrong keyboard language layout (Arabic ↔ English), and copies the result back to the clipboard.
 
-pyperclip
-keyboard
+---
 
-# ▶️ لتشغيل المشروع:
-# python main.py
+## 📦 Install Requirements
 
-# ℹ️ ملاحظة:
-# عند التشغيل، اضغط Ctrl + Shift + Q لتحويل النص الموجود في الحافظة (Clipboard)
-# بين الحروف الإنجليزية/العربية حسب توزيع لوحة المفاتيح.
+Run the following command in your terminal to install the required packages:
+
+```bash
+pip install -r requirements.txt
+Or install them manually:
+
+
+pip install pyperclip keyboard
+▶️ How to Run
+To start the project, run:
+
+python main.py
+ℹ️ How to Use
+Copy any text written using the wrong keyboard layout.
+
+Press Ctrl + Shift + Q.
+
+The converted text will be copied to your clipboard.
+
+Paste it anywhere using Ctrl + V.
